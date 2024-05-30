@@ -1,4 +1,4 @@
-# El mundo de Lope de Vega (NER) \U0001F30D
+# El mundo de Lope de Vega (NER) \U0001F30D (0xF0 0x9F 0x8C 0x8D)
 
 This repository contains the datasets and the scripts we have used to train our NER model with the [Flair](https://github.com/flairNLP/flair) framework, as well as the results. This model is based on the one developed by the members of the project [Desenrollando el cordel](https://github.com/DesenrollandoElCordel/pliegos-ner), and has been applied to detect the toponyms in the corpus of the _Comedia Nueva_, by Lope de Vega (376 plays). Many thanks to Elina Leblanc and Pauline Jacsont for their help and support.
 
