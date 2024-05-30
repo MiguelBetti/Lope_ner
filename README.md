@@ -22,8 +22,9 @@ To train the models, we have used the [Baobab HPC cluster](https://www.unige.ch/
 
 ## Results
 
-The texts of our corpus have been annotated with the [BIO format](https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)) using this [script](https://github.com/MiguelBetti/Lope_ner/blob/main/NER_LOPE.py). To develop different maps with the place names, we transformed first these results into several CSV files:
+The texts of our corpus have been annotated with the [BIO format](https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)) using this [script](https://github.com/MiguelBetti/Lope_ner/blob/main/NER_LOPE.py). To develop different maps with the place names, we transformed these results into several CSV files:
 
 - Extraction of the place names, with [ner2csv.py](https://github.com/MiguelBetti/Lope_ner/blob/main/tools/ner2csv.ipynb).
 - Enrichment of the [CSV file]() with information extracted from [Artelope](https://artelope.uv.es/basededatos/index.php) (title of the plays, genre, subgenre, publication date, etc.) and from Wikidata thanks to *Open Refine* (Wikidata identifier, geographical coordinates, type of place, normalised names).
 - Conversion in JSON to create a map with [Peripleo](https://github.com/britishlibrary/peripleo) with the [csv2json.py](https://github.com/MiguelBetti/Lope_ner/blob/main/tools/csv2json.ipynb) script developped by Elina Leblanc.
+- The code and datasets are available [here](https://github.com/MiguelBetti/Lope_peripleo). Please explore our [map](https://miguelbetti.github.io/Lope_peripleo/#/?/?/?/mode=points)!
