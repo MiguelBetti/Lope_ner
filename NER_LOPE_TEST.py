@@ -34,7 +34,7 @@ clean_unicode = {
 # In[ ]:
 
 
-folder = 'corpus_test'
+folder = 'a'
 
 for f in os.listdir(folder):
     if f.endswith('.txt'):
@@ -57,6 +57,6 @@ for f in os.listdir(folder):
             result = re.sub(r"([A-Z]\w+\[[0-9]+\]:\s\")([A-Z a-z 0-9 .,?!:¿¡…\'\*´ `’‘℣Đ=æǝ°>\—\-\_–\(\)\¬\«\»;~óòáàâíìñéèúüùäëïöÀÁÉÈÊËÍÌÎÏÑÓÒÔÖÚÙÛÜ\"\"]+)(\"\s→\s)([A-Z-]*)(\s\([0-9 .]*\))", r"\2 \4", output)
             for c in clean_unicode:
                 result = re.sub(c, clean_unicode[c], result)
-            with open ('corpus_check/' + label + '.txt', 'w', encoding='utf-8') as x:
+            with open ('a/' + label + '.txt', 'w', encoding='utf-8') as x:
                 x.write(result)
 
