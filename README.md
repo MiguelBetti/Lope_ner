@@ -1,6 +1,6 @@
 # El mundo de Lope de Vega (NER) 🌍
 
-This repository contains the datasets and the scripts we have used to train our NER model with the [Flair](https://github.com/flairNLP/flair) framework, as well as the results. This model is based on the one developed by the members of the project [Desenrollando el cordel](https://github.com/DesenrollandoElCordel/pliegos-ner), and has been applied to detect the toponyms in the corpus of the _Comedia Nueva_, by Lope de Vega (378 plays). Statistics showing the number of works in which each (standardised) place name is mentioned, and the total number of occurrences in the whole corpus, can be [found here](https://github.com/MiguelBetti/Lope_ner/blob/main/Estadisticas.Rmd).
+This repository contains the datasets and the scripts we have used to train our NER model with the [Flair](https://github.com/flairNLP/flair) framework, as well as the results. This model is based on the one developed by the members of the project [Desenrollando el cordel](https://github.com/DesenrollandoElCordel/pliegos-ner), and has been applied to detect the toponyms in the corpus of the _Comedia Nueva_, by Lope de Vega (378 plays). Statistics showing the number of works in which each (standardised) place name is mentioned, and the total number of occurrences in the whole corpus, can be [found here](https://github.com/MiguelBetti/Lope_ner/blob/main/csv/Estadisticas.csv).
 
 Many thanks to Elina Leblanc and Pauline Jacsont for their help and support!
 
