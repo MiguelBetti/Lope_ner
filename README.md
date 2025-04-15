@@ -4,6 +4,8 @@ This repository contains the datasets and the scripts we have used to train our 
 
 Many thanks to Elina Leblanc and Pauline Jacsont for their help and support!
 
+The final map is available [here](https://miguelbetti.github.io/Lope_peripleo/#/?/?/?/mode=points)
+
 ## ***Training - Fine-tuning***
 The script we used for the fine-tuning of our model can be found [here](https://github.com/MiguelBetti/Lope_ner/blob/main/NER_LOPE_TRAIN.py).
 
